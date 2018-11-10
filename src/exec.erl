@@ -636,6 +636,7 @@ init([Options]) ->
                 throw("Cannot find file " ++ Exe0 ++ ": " ++ file:format_error(Err))
             end,
     IsRoot= os:getenv("USER") =:= "root",
+    io:format("SUID: ~p, Root: ~p, IsRoot: ~p, User: ~p", [SUID, Root, IsRoot, User]),
     {Exe,Msg} =
             if (SUID orelse Root orelse IsRoot) andalso User =:= undefined ->
                 % Don't allow to run port program with SUID bit without effective user set!

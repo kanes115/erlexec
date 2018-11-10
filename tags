@@ -1,0 +1,196 @@
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted/
+#state	./src/exec.erl	/^-\s\*record\s\*(\?\s\*state\>/;"	r	file:
+#state	./test/test_exec.erl	/^-\s\*record\s\*(\?\s\*state\>/;"	r	file:
+?EXCEPTION	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*EXCEPTION\>/;"	d
+?FMT	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*FMT\>/;"	d
+?GET_STACK	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*GET_STACK\>/;"	d
+?SCRIPT	./test/test_exec.erl	/^-\s\*define\s\*(\?\s\*SCRIPT\>/;"	d	file:
+?SERVER	./test/test_exec.erl	/^-\s\*define\s\*(\?\s\*SERVER\>/;"	d	file:
+?SIGHUP	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGHUP\>/;"	d
+?SIGINT	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGINT\>/;"	d
+?SIGKILL	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGKILL\>/;"	d
+?SIGTERM	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGTERM\>/;"	d
+?SIGUSR1	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGUSR1\>/;"	d
+?SIGUSR2	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGUSR2\>/;"	d
+?receiveMatch	./src/exec.erl	/^-\s\*define\s\*(\?\s\*receiveMatch\>/;"	d	file:
+?tt	./src/exec.erl	/^-\s\*define\s\*(\?\s\*tt\>/;"	d	file:
+EXCEPTION	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*EXCEPTION\>/;"	d
+FMT	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*FMT\>/;"	d
+GET_STACK	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*GET_STACK\>/;"	d
+SCRIPT	./test/test_exec.erl	/^-\s\*define\s\*(\?\s\*SCRIPT\>/;"	d	file:
+SERVER	./test/test_exec.erl	/^-\s\*define\s\*(\?\s\*SERVER\>/;"	d	file:
+SIGHUP	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGHUP\>/;"	d
+SIGINT	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGINT\>/;"	d
+SIGKILL	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGKILL\>/;"	d
+SIGTERM	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGTERM\>/;"	d
+SIGUSR1	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGUSR1\>/;"	d
+SIGUSR2	./include/exec.hrl	/^-\s\*define\s\*(\?\s\*SIGUSR2\>/;"	d
+add_option	./src/exec_app.erl	/^add_option\>/;"	f	file:
+check_cmd_options	./src/exec.erl	/^check_cmd_options\>/;"	f	file:
+cmd	./src/exec.erl	/^-\s\*type\s\*cmd\>/;"	t	file:
+cmd_option	./src/exec.erl	/^-\s\*type\s\*cmd_option\>/;"	t	file:
+cmd_options	./src/exec.erl	/^-\s\*type\s\*cmd_options\>/;"	t	file:
+code_change	./src/exec.erl	/^code_change\>/;"	f	file:
+code_change	./test/test_exec.erl	/^code_change\>/;"	f	file:
+debug	./src/exec.erl	/^debug\>/;"	f	file:
+default	./src/exec.erl	/^default\>/;"	f	file:
+do_run	./src/exec.erl	/^do_run\>/;"	f	file:
+do_unlink_ospid	./src/exec.erl	/^do_unlink_ospid\>/;"	f	file:
+exec	./src/exec.erl	1;"	M
+exec.erl	./src/exec.erl	1;"	F
+exec.hrl	./include/exec.hrl	1;"	F
+exec:check_cmd_options	./src/exec.erl	/^check_cmd_options\>/;"	f
+exec:cmd	./src/exec.erl	/^-\s\*type\s\*cmd\>/;"	t
+exec:cmd_option	./src/exec.erl	/^-\s\*type\s\*cmd_option\>/;"	t
+exec:cmd_options	./src/exec.erl	/^-\s\*type\s\*cmd_options\>/;"	t
+exec:code_change	./src/exec.erl	/^code_change\>/;"	f
+exec:debug	./src/exec.erl	/^debug\>/;"	f
+exec:default	./src/exec.erl	/^default\>/;"	f
+exec:do_run	./src/exec.erl	/^do_run\>/;"	f
+exec:do_unlink_ospid	./src/exec.erl	/^do_unlink_ospid\>/;"	f
+exec:exec_option	./src/exec.erl	/^-\s\*type\s\*exec_option\>/;"	t
+exec:exec_options	./src/exec.erl	/^-\s\*type\s\*exec_options\>/;"	t
+exec:exec_run_many_test	./src/exec.erl	/^exec_run_many_test\>/;"	f
+exec:exec_test_	./src/exec.erl	/^exec_test_\>/;"	f
+exec:get_transaction	./src/exec.erl	/^get_transaction\>/;"	f
+exec:handle_call	./src/exec.erl	/^handle_call\>/;"	f
+exec:handle_cast	./src/exec.erl	/^handle_cast\>/;"	f
+exec:handle_info	./src/exec.erl	/^handle_info\>/;"	f
+exec:init	./src/exec.erl	/^init\>/;"	f
+exec:is_port_command	./src/exec.erl	/^is_port_command\>/;"	f
+exec:kill	./src/exec.erl	/^kill\>/;"	f
+exec:manage	./src/exec.erl	/^manage\>/;"	f
+exec:maybe_add_monitor	./src/exec.erl	/^maybe_add_monitor\>/;"	f
+exec:next_trans	./src/exec.erl	/^next_trans\>/;"	f
+exec:notify_and_exit	./src/exec.erl	/^notify_and_exit\>/;"	f
+exec:notify_ospid_owner	./src/exec.erl	/^notify_ospid_owner\>/;"	f
+exec:osgid	./src/exec.erl	/^-\s\*type\s\*osgid\>/;"	t
+exec:ospid	./src/exec.erl	/^-\s\*type\s\*ospid\>/;"	t
+exec:ospid	./src/exec.erl	/^ospid\>/;"	f
+exec:ospid_deliver_output	./src/exec.erl	/^ospid_deliver_output\>/;"	f
+exec:ospid_init	./src/exec.erl	/^ospid_init\>/;"	f
+exec:ospid_loop	./src/exec.erl	/^ospid_loop\>/;"	f
+exec:output_dev_opt	./src/exec.erl	/^-\s\*type\s\*output_dev_opt\>/;"	t
+exec:output_file_opt	./src/exec.erl	/^-\s\*type\s\*output_file_opt\>/;"	t
+exec:pid	./src/exec.erl	/^pid\>/;"	f
+exec:print	./src/exec.erl	/^print\>/;"	f
+exec:run	./src/exec.erl	/^run\>/;"	f
+exec:run_link	./src/exec.erl	/^run_link\>/;"	f
+exec:send	./src/exec.erl	/^send\>/;"	f
+exec:send_to_ospid_owner	./src/exec.erl	/^send_to_ospid_owner\>/;"	f
+exec:setpgid	./src/exec.erl	/^setpgid\>/;"	f
+exec:signal	./src/exec.erl	/^signal\>/;"	f
+exec:start	./src/exec.erl	/^start\>/;"	f
+exec:start_link	./src/exec.erl	/^start_link\>/;"	f
+exec:status	./src/exec.erl	/^status\>/;"	f
+exec:stop	./src/exec.erl	/^stop\>/;"	f
+exec:stop_and_wait	./src/exec.erl	/^stop_and_wait\>/;"	f
+exec:sync_res	./src/exec.erl	/^sync_res\>/;"	f
+exec:temp_file	./src/exec.erl	/^temp_file\>/;"	f
+exec:terminate	./src/exec.erl	/^terminate\>/;"	f
+exec:test_cmd	./src/exec.erl	/^test_cmd\>/;"	f
+exec:test_env	./src/exec.erl	/^test_env\>/;"	f
+exec:test_executable	./src/exec.erl	/^test_executable\>/;"	f
+exec:test_kill_timeout	./src/exec.erl	/^test_kill_timeout\>/;"	f
+exec:test_monitor	./src/exec.erl	/^test_monitor\>/;"	f
+exec:test_pty	./src/exec.erl	/^test_pty\>/;"	f
+exec:test_redirect	./src/exec.erl	/^test_redirect\>/;"	f
+exec:test_redirect_stdin	./src/exec.erl	/^test_redirect_stdin\>/;"	f
+exec:test_setpgid	./src/exec.erl	/^test_setpgid\>/;"	f
+exec:test_std	./src/exec.erl	/^test_std\>/;"	f
+exec:test_stdin	./src/exec.erl	/^test_stdin\>/;"	f
+exec:test_stdin_eof	./src/exec.erl	/^test_stdin_eof\>/;"	f
+exec:test_sync	./src/exec.erl	/^test_sync\>/;"	f
+exec:test_winsz	./src/exec.erl	/^test_winsz\>/;"	f
+exec:wait_for_ospid_exit	./src/exec.erl	/^wait_for_ospid_exit\>/;"	f
+exec:wait_port_exit	./src/exec.erl	/^wait_port_exit\>/;"	f
+exec:which_children	./src/exec.erl	/^which_children\>/;"	f
+exec:winsz	./src/exec.erl	/^winsz\>/;"	f
+exec_app	./src/exec_app.erl	1;"	M
+exec_app.erl	./src/exec_app.erl	1;"	F
+exec_app:add_option	./src/exec_app.erl	/^add_option\>/;"	f
+exec_app:init	./src/exec_app.erl	/^init\>/;"	f
+exec_app:start	./src/exec_app.erl	/^start\>/;"	f
+exec_app:stop	./src/exec_app.erl	/^stop\>/;"	f
+exec_option	./src/exec.erl	/^-\s\*type\s\*exec_option\>/;"	t	file:
+exec_options	./src/exec.erl	/^-\s\*type\s\*exec_options\>/;"	t	file:
+exec_run_many_test	./src/exec.erl	/^exec_run_many_test\>/;"	f	file:
+exec_test_	./src/exec.erl	/^exec_test_\>/;"	f	file:
+get_transaction	./src/exec.erl	/^get_transaction\>/;"	f	file:
+handle_call	./src/exec.erl	/^handle_call\>/;"	f	file:
+handle_call	./test/test_exec.erl	/^handle_call\>/;"	f	file:
+handle_cast	./src/exec.erl	/^handle_cast\>/;"	f	file:
+handle_cast	./test/test_exec.erl	/^handle_cast\>/;"	f	file:
+handle_info	./src/exec.erl	/^handle_info\>/;"	f	file:
+handle_info	./test/test_exec.erl	/^handle_info\>/;"	f	file:
+init	./src/exec.erl	/^init\>/;"	f	file:
+init	./src/exec_app.erl	/^init\>/;"	f	file:
+init	./test/test_exec.erl	/^init\>/;"	f	file:
+is_port_command	./src/exec.erl	/^is_port_command\>/;"	f	file:
+kill	./src/exec.erl	/^kill\>/;"	f	file:
+manage	./src/exec.erl	/^manage\>/;"	f	file:
+maybe_add_monitor	./src/exec.erl	/^maybe_add_monitor\>/;"	f	file:
+next_trans	./src/exec.erl	/^next_trans\>/;"	f	file:
+notify_and_exit	./src/exec.erl	/^notify_and_exit\>/;"	f	file:
+notify_ospid_owner	./src/exec.erl	/^notify_ospid_owner\>/;"	f	file:
+osgid	./src/exec.erl	/^-\s\*type\s\*osgid\>/;"	t	file:
+ospid	./src/exec.erl	/^-\s\*type\s\*ospid\>/;"	t	file:
+ospid	./src/exec.erl	/^ospid\>/;"	f	file:
+ospid_deliver_output	./src/exec.erl	/^ospid_deliver_output\>/;"	f	file:
+ospid_init	./src/exec.erl	/^ospid_init\>/;"	f	file:
+ospid_loop	./src/exec.erl	/^ospid_loop\>/;"	f	file:
+output_dev_opt	./src/exec.erl	/^-\s\*type\s\*output_dev_opt\>/;"	t	file:
+output_file_opt	./src/exec.erl	/^-\s\*type\s\*output_file_opt\>/;"	t	file:
+pid	./src/exec.erl	/^pid\>/;"	f	file:
+print	./src/exec.erl	/^print\>/;"	f	file:
+receiveMatch	./src/exec.erl	/^-\s\*define\s\*(\?\s\*receiveMatch\>/;"	d	file:
+run	./src/exec.erl	/^run\>/;"	f	file:
+run	./test/test_exec.erl	/^run\>/;"	f	file:
+run_link	./src/exec.erl	/^run_link\>/;"	f	file:
+send	./src/exec.erl	/^send\>/;"	f	file:
+send_to_ospid_owner	./src/exec.erl	/^send_to_ospid_owner\>/;"	f	file:
+setpgid	./src/exec.erl	/^setpgid\>/;"	f	file:
+signal	./src/exec.erl	/^signal\>/;"	f	file:
+start	./src/exec.erl	/^start\>/;"	f	file:
+start	./src/exec_app.erl	/^start\>/;"	f	file:
+start_link	./src/exec.erl	/^start_link\>/;"	f	file:
+state	./src/exec.erl	/^-\s\*record\s\*(\?\s\*state\>/;"	r	file:
+state	./test/test_exec.erl	/^-\s\*record\s\*(\?\s\*state\>/;"	r	file:
+stats	./test/test_exec.erl	/^stats\>/;"	f	file:
+status	./src/exec.erl	/^status\>/;"	f	file:
+stop	./src/exec.erl	/^stop\>/;"	f	file:
+stop	./src/exec_app.erl	/^stop\>/;"	f	file:
+stop_and_wait	./src/exec.erl	/^stop_and_wait\>/;"	f	file:
+sync_res	./src/exec.erl	/^sync_res\>/;"	f	file:
+temp_file	./src/exec.erl	/^temp_file\>/;"	f	file:
+terminate	./src/exec.erl	/^terminate\>/;"	f	file:
+terminate	./test/test_exec.erl	/^terminate\>/;"	f	file:
+test_cmd	./src/exec.erl	/^test_cmd\>/;"	f	file:
+test_env	./src/exec.erl	/^test_env\>/;"	f	file:
+test_exec	./test/test_exec.erl	1;"	M
+test_exec.erl	./test/test_exec.erl	1;"	F
+test_exec:code_change	./test/test_exec.erl	/^code_change\>/;"	f
+test_exec:handle_call	./test/test_exec.erl	/^handle_call\>/;"	f
+test_exec:handle_cast	./test/test_exec.erl	/^handle_cast\>/;"	f
+test_exec:handle_info	./test/test_exec.erl	/^handle_info\>/;"	f
+test_exec:init	./test/test_exec.erl	/^init\>/;"	f
+test_exec:run	./test/test_exec.erl	/^run\>/;"	f
+test_exec:stats	./test/test_exec.erl	/^stats\>/;"	f
+test_exec:terminate	./test/test_exec.erl	/^terminate\>/;"	f
+test_executable	./src/exec.erl	/^test_executable\>/;"	f	file:
+test_kill_timeout	./src/exec.erl	/^test_kill_timeout\>/;"	f	file:
+test_monitor	./src/exec.erl	/^test_monitor\>/;"	f	file:
+test_pty	./src/exec.erl	/^test_pty\>/;"	f	file:
+test_redirect	./src/exec.erl	/^test_redirect\>/;"	f	file:
+test_redirect_stdin	./src/exec.erl	/^test_redirect_stdin\>/;"	f	file:
+test_setpgid	./src/exec.erl	/^test_setpgid\>/;"	f	file:
+test_std	./src/exec.erl	/^test_std\>/;"	f	file:
+test_stdin	./src/exec.erl	/^test_stdin\>/;"	f	file:
+test_stdin_eof	./src/exec.erl	/^test_stdin_eof\>/;"	f	file:
+test_sync	./src/exec.erl	/^test_sync\>/;"	f	file:
+test_winsz	./src/exec.erl	/^test_winsz\>/;"	f	file:
+tt	./src/exec.erl	/^-\s\*define\s\*(\?\s\*tt\>/;"	d	file:
+wait_for_ospid_exit	./src/exec.erl	/^wait_for_ospid_exit\>/;"	f	file:
+wait_port_exit	./src/exec.erl	/^wait_port_exit\>/;"	f	file:
+which_children	./src/exec.erl	/^which_children\>/;"	f	file:
+winsz	./src/exec.erl	/^winsz\>/;"	f	file:
